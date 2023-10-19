@@ -1,0 +1,28 @@
+<SchemeManager version="7">
+	<Id>pbdf-staging</Id>
+    <Url>https://yivi.humilis.net/schememanager/pbdf-staging</Url>
+	<Name>
+		<en>Privacy by Design Foundation</en>
+		<nl>Stichting Privacy by Design</nl>
+	</Name>
+	<Description>
+		<en>The Privacy by Design Foundation develops the Yivi app and the Yivi infrastructure, and issues basic attributes for free</en>
+		<nl>De stichting Privacy by Design ontwikkelt de Yivi-app en de Yivi-infrastructuur, en geeft gratis een set basisattributen uit</nl>
+	</Description>
+	<MinimumAppVersion>
+		<!-- Build number of app version 6.2.0 -->
+		<Android>133</Android>
+		<iOS>133</iOS>
+	</MinimumAppVersion>
+    <KeyshareServer>https://yivi.humilis.net/keyshare</KeyshareServer>
+	<KeyshareWebsite>https://my.yivi.humiis.net</KeyshareWebsite>
+	<!--
+		KeyShareAttribute is required for app users to gain access to the MyYivi
+		webinterface. The current format only allows to name one. Accepted attributes are:
+		- pbdf.pbdf.mijnirma.email
+		- pbdf.sidn-pbdf.irma.pseudonym
+	-->
+	<KeyshareAttribute>pbdf-staging.sidn-pbdf.irma.pseudonym</KeyshareAttribute>
+	<TimestampServer>https://yivi.humilis.net/atumd/</TimestampServer>
+	<Contact>https://privacybydesign.foundation/</Contact>
+</SchemeManager>
