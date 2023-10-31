@@ -8,7 +8,7 @@
 		<nl>MijnYivi</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
-	<IssuerID>pbdf-staging</IssuerID>
+	<IssuerID>pbdf</IssuerID>
 	<CredentialID>mijnirma</CredentialID>
 	<DeprecatedSince>1591183626</DeprecatedSince>
 	<Description>

@@ -8,7 +8,7 @@
 		<nl>Mobiel nummer</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
-	<IssuerID>pbdf-staging</IssuerID>
+	<IssuerID>pbdf</IssuerID>
 	<CredentialID>mobilenumber</CredentialID>
 	<DeprecatedSince>1636326000</DeprecatedSince>
 	<Description>

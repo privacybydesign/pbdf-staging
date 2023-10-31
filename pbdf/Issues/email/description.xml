@@ -8,7 +8,7 @@
 		<nl>E-mail</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
-	<IssuerID>pbdf-staging</IssuerID>
+	<IssuerID>pbdf</IssuerID>
 	<CredentialID>email</CredentialID>
 	<DeprecatedSince>1606694400</DeprecatedSince>
 	<Description>
