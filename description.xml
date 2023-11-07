@@ -14,7 +14,7 @@
 		<Android>133</Android>
 		<iOS>133</iOS>
 	</MinimumAppVersion>
-    <KeyshareServer>https://yivi.humilis.net/keyshare</KeyshareServer>
+    <KeyshareServer>https://yivi.humilis.net</KeyshareServer>
 	<KeyshareWebsite>https://my.yivi.humiis.net</KeyshareWebsite>
 	<!--
 		KeyShareAttribute is required for app users to gain access to the MyYivi
