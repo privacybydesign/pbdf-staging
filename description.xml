@@ -1,6 +1,6 @@
 <SchemeManager version="7">
 	<Id>pbdf-staging</Id>
-    <Url>https://yivi.humilis.net/schememanager/pbdf-staging</Url>
+    <Url>https://schemes.yivi-staging.irma.app/schememanager/pbdf-staging</Url>
 	<Name>
 		<en>Privacy by Design Foundation</en>
 		<nl>Stichting Privacy by Design</nl>
@@ -14,7 +14,7 @@
 		<Android>133</Android>
 		<iOS>133</iOS>
 	</MinimumAppVersion>
-    <KeyshareServer>https://yivi.humilis.net</KeyshareServer>
+    <KeyshareServer>https://schemes.yivi-staging.irma.app</KeyshareServer>
 	<KeyshareWebsite>https://my.yivi.humiis.net</KeyshareWebsite>
 	<!--
 		KeyShareAttribute is required for app users to gain access to the MyYivi
@@ -23,6 +23,6 @@
 		- pbdf.sidn-pbdf.irma.pseudonym
 	-->
 	<KeyshareAttribute>pbdf-staging.sidn-pbdf.irma.pseudonym</KeyshareAttribute>
-	<TimestampServer>https://yivi.humilis.net/atumd/</TimestampServer>
+	<TimestampServer>https://schemes.yivi-staging.irma.app/atumd/</TimestampServer>
 	<Contact>https://privacybydesign.foundation/</Contact>
 </SchemeManager>
