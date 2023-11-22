@@ -16,8 +16,8 @@
     </Description>
     <ShouldBeSingleton>false</ShouldBeSingleton>
     <IssueURL>
-        <en>https://sidnemailissuer.yivi-staging.irma.app/issuance/email/</en>
-        <nl>https://sidnemailissuer.yivi-staging.irma.app/uitgifte/email/</nl>
+        <en>https://sidnemailissuer.yivistaging.irma.app/issuance/email/</en>
+        <nl>https://sidnemailissuer.yivistaging.irma.app/uitgifte/email/</nl>
     </IssueURL>
 
     <ForegroundColor>#15222E</ForegroundColor>
