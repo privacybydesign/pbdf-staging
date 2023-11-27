@@ -18,7 +18,7 @@ jobs:
     steps:
      - uses: actions/checkout@v3
        with:
-         path: pbdf # Older irmago versions require the directory name to be equal to the scheme identifier
+         path: pbdf-staging # Older irmago versions require the directory name to be equal to the scheme identifier
 
      - name: Initialize ~/.local/bin directory
        run: |
@@ -41,4 +41,4 @@ jobs:
 
      - name: Verify scheme
        run: irma scheme verify
-       working-directory: ./pbdf
+       working-directory: ./pbdf-staging

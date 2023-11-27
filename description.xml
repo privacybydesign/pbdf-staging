@@ -14,7 +14,7 @@
         <Android>133</Android>
         <iOS>133</iOS>
     </MinimumAppVersion>
-    <KeyshareServer>https://schemes.yivistaging.irma.app/</KeyshareServer>
+    <KeyshareServer>https://keyshare.yivistaging.irma.app/</KeyshareServer>
     <KeyshareWebsite>https://my.yivistaging.irma.app/</KeyshareWebsite>
     <!--
         KeyShareAttribute is required for app users to gain access to the MyYivi
