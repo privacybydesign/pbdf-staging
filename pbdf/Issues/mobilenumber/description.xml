@@ -4,8 +4,8 @@
 		<nl>Mobiel telefoonnummer</nl>
 	</Name>
 	<ShortName>
-		<en>Mobile number</en>
-		<nl>Mobiel nummer</nl>
+		<en>Mobile number - staging</en>
+		<nl>Mobiel nummer - staging</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
 	<IssuerID>pbdf</IssuerID>

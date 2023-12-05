@@ -4,8 +4,8 @@
         <nl>E-mailadres</nl>
     </Name>
     <ShortName>
-        <en>Email</en>
-        <nl>E-mail</nl>
+        <en>Email - staging</en>
+        <nl>E-mail - staging</nl>
     </ShortName>
     <SchemeManager>pbdf-staging</SchemeManager>
     <IssuerID>sidn-pbdf</IssuerID>
