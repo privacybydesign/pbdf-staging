@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Login data</en>
-		<nl>Inloggegevens</nl>
+		<en>Login data - staging</en>
+		<nl>Inloggegevens - staging</nl>
 	</Name>
 	<ShortName>
 		<en>Login data - staging</en>
@@ -19,8 +19,8 @@
 	<Attributes>
 		<Attribute id="uniqueid">
 			<Name>
-				<en>Login code</en>
-				<nl>Inlogcode</nl>
+				<en>Login code - staging</en>
+				<nl>Inlogcode - staging</nl>
 			</Name>
 			<Description>
 				<en>Your unique login code.</en>
@@ -29,8 +29,8 @@
 		</Attribute>
 		<Attribute id="organization">
 			<Name>
-				<en>Organization</en>
-				<nl>Organisatie</nl>
+				<en>Organization - staging</en>
+				<nl>Organisatie - staging</nl>
 			</Name>
 			<Description>
 				<en>The organization that uses this login.</en>

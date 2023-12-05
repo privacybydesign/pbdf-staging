@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Mobile phone number</en>
-		<nl>Mobiel telefoonnummer</nl>
+		<en>Mobile phone number - staging</en>
+		<nl>Mobiel telefoonnummer - staging</nl>
 	</Name>
 	<ShortName>
 		<en>Mobile number - staging</en>
@@ -45,8 +45,8 @@
 	<Attributes>
 		<Attribute id="mobilenumber">
 			<Name>
-				<en>Mobile phone number</en>
-				<nl>Mobiele telefoonnummer</nl>
+				<en>Mobile phone number - staging</en>
+				<nl>Mobiele telefoonnummer - staging</nl>
 			</Name>
 			<Description>
 				<en>Your verified mobile phone number</en>

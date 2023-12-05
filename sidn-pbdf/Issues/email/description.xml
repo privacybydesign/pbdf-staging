@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Email address</en>
-        <nl>E-mailadres</nl>
+        <en>Email address - staging</en>
+        <nl>E-mailadres - staging</nl>
     </Name>
     <ShortName>
         <en>Email - staging</en>
@@ -48,8 +48,8 @@
     <Attributes>
         <Attribute id="email">
             <Name>
-                <en>Email address</en>
-                <nl>E-mailadres</nl>
+                <en>Email address - staging</en>
+                <nl>E-mailadres - staging</nl>
             </Name>
             <Description>
                 <en>Your verified email address</en>
@@ -58,8 +58,8 @@
         </Attribute>
         <Attribute id="domain" optional="true">
             <Name>
-                <en>Email domain name</en>
-                <nl>E-mail domeinnaam</nl>
+                <en>Email domain name - staging</en>
+                <nl>E-mail domeinnaam - staging</nl>
             </Name>
             <Description>
                 <en>The domain name of your email address</en>

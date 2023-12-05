@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>MyYivi app ID</en>
-		<nl>MijnYivi app-ID</nl>
+		<en>MyYivi app ID - staging</en>
+		<nl>MijnYivi app-ID - staging</nl>
 	</Name>
 	<ShortName>
 		<en>MyYivi - staging</en>
@@ -24,8 +24,8 @@
 	<Attributes>
 		<Attribute id="pseudonym">
 			<Name>
-				<en>App ID</en>
-				<nl>App-ID</nl>
+				<en>App ID - staging</en>
+				<nl>App-ID - staging</nl>
 			</Name>
 			<Description>
 				<en>Your MyYivi app ID</en>
