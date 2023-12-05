@@ -1,12 +1,12 @@
 <Issuer version="4">
 	<ID>pbdf</ID>
 	<ShortName>
-		<en>PbD.f</en>
-		<nl>PbD.f</nl>
+		<en>PbD.f - staging</en>
+		<nl>PbD.f - staging</nl>
 	</ShortName>
 	<Name>
-		<en>Privacy by Design Foundation</en>
-		<nl>Stichting Privacy by Design</nl>
+		<en>Privacy by Design Foundation - staging</en>
+		<nl>Stichting Privacy by Design - staging</nl>
 	</Name>
 	<SchemeManager>pbdf-staging</SchemeManager>
 	<ContactAddress></ContactAddress>

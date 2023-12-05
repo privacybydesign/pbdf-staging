@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Mobile phone number</en>
-        <nl>Mobiel telefoonnummer</nl>
+        <en>Mobile phone number - staging</en>
+        <nl>Mobiel telefoonnummer - staging</nl>
     </Name>
     <ShortName>
-        <en>Mobile number</en>
-        <nl>Mobiel nummer</nl>
+        <en>Mobile number - staging</en>
+        <nl>Mobiel nummer - staging</nl>
     </ShortName>
     <SchemeManager>pbdf-staging</SchemeManager>
     <IssuerID>sidn-pbdf</IssuerID>
