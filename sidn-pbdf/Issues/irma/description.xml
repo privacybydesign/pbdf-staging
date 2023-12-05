@@ -24,8 +24,8 @@
 	<Attributes>
 		<Attribute id="pseudonym">
 			<Name>
-				<en>App ID - staging</en>
-				<nl>App-ID - staging</nl>
+				<en>App ID</en>
+				<nl>App-ID</nl>
 			</Name>
 			<Description>
 				<en>Your MyYivi app ID</en>

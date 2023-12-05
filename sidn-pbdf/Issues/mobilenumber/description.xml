@@ -48,8 +48,8 @@
     <Attributes>
         <Attribute id="mobilenumber">
             <Name>
-                <en>Mobile phone number - staging</en>
-                <nl>Mobiele telefoonnummer - staging</nl>
+                <en>Mobile phone number</en>
+                <nl>Mobiele telefoonnummer</nl>
             </Name>
             <Description>
                 <en>Your verified mobile phone number</en>

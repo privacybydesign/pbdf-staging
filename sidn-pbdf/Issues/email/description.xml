@@ -48,8 +48,8 @@
     <Attributes>
         <Attribute id="email">
             <Name>
-                <en>Email address - staging</en>
-                <nl>E-mailadres - staging</nl>
+                <en>Email address</en>
+                <nl>E-mailadres</nl>
             </Name>
             <Description>
                 <en>Your verified email address</en>
@@ -58,8 +58,8 @@
         </Attribute>
         <Attribute id="domain" optional="true">
             <Name>
-                <en>Email domain name - staging</en>
-                <nl>E-mail domeinnaam - staging</nl>
+                <en>Email domain name</en>
+                <nl>E-mail domeinnaam</nl>
             </Name>
             <Description>
                 <en>The domain name of your email address</en>
