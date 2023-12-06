@@ -23,6 +23,6 @@
         - pbdf.sidn-pbdf.irma.pseudonym
     -->
     <KeyshareAttribute>pbdf-staging.sidn-pbdf.irma.pseudonym</KeyshareAttribute>
-    <TimestampServer>https://yivistaging.irma.app/atumd/</TimestampServer>
+    <TimestampServer>https://atumd.yivistaging.irma.app/</TimestampServer>
     <Contact>https://privacybydesign.foundation/</Contact>
 </SchemeManager>
