@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>MyYivi app ID</en>
-		<nl>MijnYivi app-ID</nl>
+		<en>MyYivi app ID - staging</en>
+		<nl>MijnYivi app-ID - staging</nl>
 	</Name>
 	<ShortName>
-		<en>MyYivi</en>
-		<nl>MijnYivi</nl>
+		<en>MyYivi - staging</en>
+		<nl>MijnYivi - staging</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
 	<IssuerID>sidn-pbdf</IssuerID>

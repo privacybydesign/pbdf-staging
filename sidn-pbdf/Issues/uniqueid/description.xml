@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Login data</en>
-		<nl>Inloggegevens</nl>
+		<en>Login data - staging</en>
+		<nl>Inloggegevens - staging</nl>
 	</Name>
 	<ShortName>
-		<en>Login data</en>
-		<nl>Inloggegevens</nl>
+		<en>Login data - staging</en>
+		<nl>Inloggegevens - staging</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
 	<IssuerID>sidn-pbdf</IssuerID>
