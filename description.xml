@@ -10,9 +10,9 @@
         <nl>De stichting Privacy by Design ontwikkelt de Yivi-app en de Yivi-infrastructuur, en geeft gratis een set basisattributen uit</nl>
     </Description>
     <MinimumAppVersion>
-        <!-- Build number of app version 6.2.0 -->
-        <Android>133</Android>
-        <iOS>133</iOS>
+        <!-- Build number of app version 7.5.4 -->
+        <Android>4194468</Android>
+        <iOS>4194468</iOS>
     </MinimumAppVersion>
     <KeyshareServer>https://keyshare.staging.yivi.app/</KeyshareServer>
     <KeyshareWebsite>https://my.staging.yivi.app/</KeyshareWebsite>
