@@ -50,7 +50,7 @@ jobs:
 
       - name: Verify scheme at head
         id: verify-head
-        run: irma scheme verify
+        run: irma scheme verify > ../output-head.txt 2>&1
         shell: bash
         working-directory: ./head
         continue-on-error: true
