@@ -16,8 +16,8 @@
     </Description>
     <ShouldBeSingleton>false</ShouldBeSingleton>
     <IssueURL>
-        <en>https://emailissuer.staging.yivi.app/en/</en>
-        <nl>https://emailissuer.staging.yivi.app/nl/</nl>
+        <en>https://email-issuer.staging.yivi.app/en/</en>
+        <nl>https://email-issuer.staging.yivi.app/nl/</nl>
     </IssueURL>
 
     <ForegroundColor>#15222E</ForegroundColor>
