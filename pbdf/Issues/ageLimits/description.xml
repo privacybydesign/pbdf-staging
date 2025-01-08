@@ -7,7 +7,7 @@
 		<en>Age</en>
 		<nl>Leeftijd</nl>
 	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
+	<SchemeManager>pbdf-staging</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>ageLimits</CredentialID>
 	<Description>
@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/uitgifte/idin/</en>
-		<nl>https://privacybydesign.foundation/uitgifte/idin/</nl>
+		<en>https://idin-issuer.staging.yivi.app</en>
+		<nl>https://idin-issuer.staging.yivi.app</nl>
 	</IssueURL>
 
 	<ForegroundColor>#ffffff</ForegroundColor>
