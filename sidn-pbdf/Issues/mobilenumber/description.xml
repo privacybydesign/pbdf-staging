@@ -16,8 +16,8 @@
     </Description>
     <ShouldBeSingleton>false</ShouldBeSingleton>
     <IssueURL>
-        <en>https://sidnsmsissuer.yivistaging.irma.app/issuance/sms/</en>
-        <nl>https://sidnsmsissuer.yivistaging.irma.app/uitgifte/sms/</nl>
+        <en>https://sms-issuer.staging.yivi.app/en/</en>
+        <nl>https://sms-issuer.staging.yivi.app/nl/</nl>
     </IssueURL>
 
     <ForegroundColor>#15222E</ForegroundColor>
