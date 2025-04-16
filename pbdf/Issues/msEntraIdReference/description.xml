@@ -40,6 +40,16 @@
                 <nl>De weergavenaam, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
+        <Attribute id="userPrincipalName">
+            <Name>
+                <en>User Principal Name</en>
+                <nl>User Principal Name</nl>
+            </Name>
+            <Description>
+                <en>Your User Principal Name, as registered in Microsoft Entra ID</en>
+                <nl>Je User Principal Name, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
         <Attribute id="givenName" optional="true">
             <Name>
                 <en>Given Name</en>
@@ -78,16 +88,6 @@
             <Description>
                 <en>Your e-mail address, as registered in Microsoft Entra ID</en>
                 <nl>Je e-mailadres, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="userPrincipalName">
-            <Name>
-                <en>User Principal Name</en>
-                <nl>User Principal Name</nl>
-            </Name>
-            <Description>
-                <en>Your User Principal Name, as registered in Microsoft Entra ID</en>
-                <nl>Je User Principal Name, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
         <Attribute id="businessPhone" optional="true">
