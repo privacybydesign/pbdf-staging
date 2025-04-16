@@ -70,56 +70,6 @@
                 <nl>Je achternaam, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="jobTitle" optional="true">
-            <Name>
-                <en>Job Title</en>
-                <nl>Functietitel</nl>
-            </Name>
-            <Description>
-                <en>Your job title in the organization, as registered in Microsoft Entra ID</en>
-                <nl>Je functie binnen de organisatie, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="mail" optional="true">
-            <Name>
-                <en>E-mail</en>
-                <nl>E-mail</nl>
-            </Name>
-            <Description>
-                <en>Your e-mail address, as registered in Microsoft Entra ID</en>
-                <nl>Je e-mailadres, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="businessPhone" optional="true">
-            <Name>
-                <en>Business Phone Number</en>
-                <nl>Zakelijke telefoonnummer</nl>
-            </Name>
-            <Description>
-                <en>Your business phone number, as registered in Microsoft Entra ID</en>
-                <nl>Je zakelijke telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="mobilePhone" optional="true">
-            <Name>
-                <en>Mobile Phone</en>
-                <nl>Mobiele telefoon</nl>
-            </Name>
-            <Description>
-                <en>Your mobile phone number, as registered in Microsoft Entra ID</en>
-                <nl>Je mobiele telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="officeLocation" optional="true">
-            <Name>
-                <en>Office Location</en>
-                <nl>Kantoorlocatie</nl>
-            </Name>
-            <Description>
-                <en>Your physical office location, as registered in Microsoft Entra ID</en>
-                <nl>Je fysieke kantoorlocatie, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
         <Attribute id="userType" optional="true">
             <Name>
                 <en>User Type</en>
@@ -138,6 +88,16 @@
             <Description>
                 <en>The date your account was created in Microsoft Entra ID</en>
                 <nl>De datum waarop je account is aangemaakt in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="jobTitle" optional="true">
+            <Name>
+                <en>Job Title</en>
+                <nl>Functietitel</nl>
+            </Name>
+            <Description>
+                <en>Your job title in the organization, as registered in Microsoft Entra ID</en>
+                <nl>Je functie binnen de organisatie, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
         <Attribute id="companyName" optional="true">
@@ -190,6 +150,16 @@
                 <nl>Je datum van indiensttreding, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
+        <Attribute id="officeLocation" optional="true">
+            <Name>
+                <en>Office Location</en>
+                <nl>Kantoorlocatie</nl>
+            </Name>
+            <Description>
+                <en>Your physical office location, as registered in Microsoft Entra ID</en>
+                <nl>Je fysieke kantoorlocatie, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
         <Attribute id="streetAddress" optional="true">
             <Name>
                 <en>Street Address</en>
@@ -238,6 +208,36 @@
             <Description>
                 <en>Your country, as registered in Microsoft Entra ID</en>
                 <nl>Je land, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="businessPhone" optional="true">
+            <Name>
+                <en>Business Phone Number</en>
+                <nl>Zakelijke telefoonnummer</nl>
+            </Name>
+            <Description>
+                <en>Your business phone number, as registered in Microsoft Entra ID</en>
+                <nl>Je zakelijke telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="mobilePhone" optional="true">
+            <Name>
+                <en>Mobile Phone</en>
+                <nl>Mobiele telefoon</nl>
+            </Name>
+            <Description>
+                <en>Your mobile phone number, as registered in Microsoft Entra ID</en>
+                <nl>Je mobiele telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="mail" optional="true">
+            <Name>
+                <en>E-mail</en>
+                <nl>E-mail</nl>
+            </Name>
+            <Description>
+                <en>Your e-mail address, as registered in Microsoft Entra ID</en>
+                <nl>Je e-mailadres, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
         <Attribute id="ageGroup" optional="true">
