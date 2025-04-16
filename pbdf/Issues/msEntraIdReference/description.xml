@@ -120,5 +120,167 @@
                 <nl>Je fysieke kantoorlocatie, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
+        <Attribute id="userType" optional="true">
+            <Name>
+                <en>User Type</en>
+                <nl>Gebruikerstype</nl>
+            </Name>
+            <Description>
+                <en>Your user type, as registered in Microsoft Entra ID</en>
+                <nl>Je gebruikerstype, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="createdDateTime" optional="true">
+            <Name>
+                <en>Created Date</en>
+                <nl>Aanmaakdatum</nl>
+            </Name>
+            <Description>
+                <en>The date your account was created in Microsoft Entra ID</en>
+                <nl>De datum waarop je account is aangemaakt in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="companyName" optional="true">
+            <Name>
+                <en>Company Name</en>
+                <nl>Bedrijfsnaam</nl>
+            </Name>
+            <Description>
+                <en>Your company name, as registered in Microsoft Entra ID</en>
+                <nl>Je bedrijfsnaam, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="department" optional="true">
+            <Name>
+                <en>Department</en>
+                <nl>Afdeling</nl>
+            </Name>
+            <Description>
+                <en>Your department, as registered in Microsoft Entra ID</en>
+                <nl>Je afdeling, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="employeeId" optional="true">
+            <Name>
+                <en>Employee ID</en>
+                <nl>Personeelsnummer</nl>
+            </Name>
+            <Description>
+                <en>Your employee ID number, as registered in Microsoft Entra ID</en>
+                <nl>Je personeelsnummer, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="employeeType" optional="true">
+            <Name>
+                <en>Employee Type</en>
+                <nl>Werknemerstype</nl>
+            </Name>
+            <Description>
+                <en>Your employee type, as registered in Microsoft Entra ID</en>
+                <nl>Je werknemerstype, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="employeeHireDate" optional="true">
+            <Name>
+                <en>Hire Date</en>
+                <nl>Datum indiensttreding</nl>
+            </Name>
+            <Description>
+                <en>Your hire date, as registered in Microsoft Entra ID</en>
+                <nl>Je datum van indiensttreding, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="streetAddress" optional="true">
+            <Name>
+                <en>Street Address</en>
+                <nl>Straatnaam en nummer</nl>
+            </Name>
+            <Description>
+                <en>Your street address, as registered in Microsoft Entra ID</en>
+                <nl>Je straatnaam en nummer, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="city" optional="true">
+            <Name>
+                <en>City</en>
+                <nl>Stad</nl>
+            </Name>
+            <Description>
+                <en>Your city, as registered in Microsoft Entra ID</en>
+                <nl>Je stad, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="state" optional="true">
+            <Name>
+                <en>State or Province</en>
+                <nl>Provincie</nl>
+            </Name>
+            <Description>
+                <en>Your state or province, as registered in Microsoft Entra ID</en>
+                <nl>Je provincie, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="postalCode" optional="true">
+            <Name>
+                <en>Postal Code</en>
+                <nl>Postcode</nl>
+            </Name>
+            <Description>
+                <en>Your postal code, as registered in Microsoft Entra ID</en>
+                <nl>Je postcode, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="country" optional="true">
+            <Name>
+                <en>Country</en>
+                <nl>Land</nl>
+            </Name>
+            <Description>
+                <en>Your country, as registered in Microsoft Entra ID</en>
+                <nl>Je land, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="ageGroup" optional="true">
+            <Name>
+                <en>Age Group</en>
+                <nl>Leeftijdsgroep</nl>
+            </Name>
+            <Description>
+                <en>Your age group, as registered in Microsoft Entra ID</en>
+                <nl>Je leeftijdsgroep, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="consentProvidedForMinor" optional="true">
+            <Name>
+                <en>Consent Provided For Minor</en>
+                <nl>Toestemming verleend voor minderjarige</nl>
+            </Name>
+            <Description>
+                <en>Indicates whether consent has been obtained for minors, as registered in Microsoft Entra ID</en>
+                <nl>Geeft aan of er toestemming is verkregen voor minderjarigen, zoals geregistreerd in Microsoft Entra
+                    ID
+                </nl>
+            </Description>
+        </Attribute>
+        <Attribute id="legalAgeGroupClassification" optional="true">
+            <Name>
+                <en>Legal Age Group Classification</en>
+                <nl>Juridische leeftijdsgroepclassificatie</nl>
+            </Name>
+            <Description>
+                <en>Your legal age group classification, as registered in Microsoft Entra ID</en>
+                <nl>Je juridische leeftijdsgroepclassificatie, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="accountEnabled" optional="true">
+            <Name>
+                <en>Account Enabled</en>
+                <nl>Account geactiveerd</nl>
+            </Name>
+            <Description>
+                <en>Indicates whether your account is enabled in Microsoft Entra ID</en>
+                <nl>Geeft aan of je account is geactiveerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
     </Attributes>
 </IssueSpecification>
