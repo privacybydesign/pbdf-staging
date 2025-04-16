@@ -40,7 +40,7 @@
                 <nl>De weergavenaam, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="givenName">
+        <Attribute id="givenName" optional="true">
             <Name>
                 <en>Given Name</en>
                 <nl>Voornaam</nl>
@@ -50,7 +50,7 @@
                 <nl>Je voornaam, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="surname">
+        <Attribute id="surname" optional="true">
             <Name>
                 <en>Surname</en>
                 <nl>Achternaam</nl>
@@ -60,7 +60,7 @@
                 <nl>Je achternaam, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="jobTitle">
+        <Attribute id="jobTitle" optional="true">
             <Name>
                 <en>Job Title</en>
                 <nl>Functietitel</nl>
@@ -70,7 +70,7 @@
                 <nl>Je functie binnen de organisatie, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="mail">
+        <Attribute id="mail" optional="true">
             <Name>
                 <en>E-mail</en>
                 <nl>E-mail</nl>
@@ -90,7 +90,7 @@
                 <nl>Je User Principal Name, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="businessPhone">
+        <Attribute id="businessPhone" optional="true">
             <Name>
                 <en>Business Phone Number</en>
                 <nl>Zakelijke telefoonnummer</nl>
@@ -100,7 +100,7 @@
                 <nl>Je zakelijke telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="mobilePhone">
+        <Attribute id="mobilePhone" optional="true">
             <Name>
                 <en>Mobile Phone</en>
                 <nl>Mobiele telefoon</nl>
@@ -110,7 +110,7 @@
                 <nl>Je mobiele telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="officeLocation">
+        <Attribute id="officeLocation" optional="true">
             <Name>
                 <en>Office Location</en>
                 <nl>Kantoorlocatie</nl>
