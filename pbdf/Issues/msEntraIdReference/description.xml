@@ -100,14 +100,14 @@
                 <nl>Je User Principal Name, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="businessPhones">
+        <Attribute id="businessPhone">
             <Name>
-                <en>Business Phone Numbers</en>
-                <nl>Zakelijke telefoonnummers</nl>
+                <en>Business Phone Number</en>
+                <nl>Zakelijke telefoonnummer</nl>
             </Name>
             <Description>
-                <en>Your business phone number(s), as registered in Microsoft Entra ID</en>
-                <nl>Je zakelijke telefoonnummer(s), zoals geregistreerd in Microsoft Entra ID</nl>
+                <en>Your business phone number, as registered in Microsoft Entra ID</en>
+                <nl>Je zakelijke telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
         <Attribute id="mobilePhone">
