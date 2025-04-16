@@ -22,8 +22,8 @@
     <Attributes>
         <Attribute id="id">
             <Name>
-                <en>Microsoft Object ID</en>
-                <nl>Microsoft Object ID</nl>
+                <en>Object-ID</en>
+                <nl>Object-ID</nl>
             </Name>
             <Description>
                 <en>Your Microsoft Object ID, as registered in Microsoft Entra ID</en>
