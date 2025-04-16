@@ -30,16 +30,6 @@
                 <nl>Je Microsoft Object ID, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="name">
-            <Name>
-                <en>Name</en>
-                <nl>Naam</nl>
-            </Name>
-            <Description>
-                <en>Your full name in Microsoft Entra ID</en>
-                <nl>Je volledige naam in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
         <Attribute id="displayName">
             <Name>
                 <en>Display Name</en>
