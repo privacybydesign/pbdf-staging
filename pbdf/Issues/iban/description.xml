@@ -7,7 +7,7 @@
 		<en>Bank</en>
 		<nl>Bank</nl>
 	</ShortName>
-	<SchemeManager>pbdf</SchemeManager>
+	<SchemeManager>pbdf-staging</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>iban</CredentialID>
 	<Description>
