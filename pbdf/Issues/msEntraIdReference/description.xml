@@ -30,7 +30,7 @@
                 <nl>Je Microsoft Object ID, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="displayName">
+        <Attribute id="displayName" optional="true">
             <Name>
                 <en>Display Name</en>
                 <nl>Weergavenaam</nl>
@@ -40,7 +40,7 @@
                 <nl>De weergavenaam, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="userPrincipalName">
+        <Attribute id="userPrincipalName" optional="true">
             <Name>
                 <en>User Principal Name</en>
                 <nl>User Principal Name</nl>
