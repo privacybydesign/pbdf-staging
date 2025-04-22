@@ -80,16 +80,6 @@
                 <nl>Je gebruikerstype, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="createdDateTime" optional="true">
-            <Name>
-                <en>Created Date</en>
-                <nl>Aanmaakdatum</nl>
-            </Name>
-            <Description>
-                <en>The date your account was created in Microsoft Entra ID</en>
-                <nl>De datum waarop je account is aangemaakt in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
         <Attribute id="jobTitle" optional="true">
             <Name>
                 <en>Job Title</en>
