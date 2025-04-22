@@ -30,16 +30,6 @@
                 <nl>Je Microsoft Object ID, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="displayName" optional="true">
-            <Name>
-                <en>Display Name</en>
-                <nl>Weergavenaam</nl>
-            </Name>
-            <Description>
-                <en>The display name, as registered in Microsoft Entra ID</en>
-                <nl>De weergavenaam, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
         <Attribute id="userPrincipalName" optional="true">
             <Name>
                 <en>User Principal Name</en>
@@ -68,16 +58,6 @@
             <Description>
                 <en>Your last name, as registered in Microsoft Entra ID</en>
                 <nl>Je achternaam, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="userType" optional="true">
-            <Name>
-                <en>User Type</en>
-                <nl>Gebruikerstype</nl>
-            </Name>
-            <Description>
-                <en>Your user type, as registered in Microsoft Entra ID</en>
-                <nl>Je gebruikerstype, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
         <Attribute id="jobTitle" optional="true">
@@ -128,16 +108,6 @@
             <Description>
                 <en>Your employee type, as registered in Microsoft Entra ID</en>
                 <nl>Je werknemerstype, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="employeeHireDate" optional="true">
-            <Name>
-                <en>Hire Date</en>
-                <nl>Datum indiensttreding</nl>
-            </Name>
-            <Description>
-                <en>Your hire date, as registered in Microsoft Entra ID</en>
-                <nl>Je datum van indiensttreding, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
         <Attribute id="officeLocation" optional="true">
@@ -228,38 +198,6 @@
             <Description>
                 <en>Your e-mail address, as registered in Microsoft Entra ID</en>
                 <nl>Je e-mailadres, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="ageGroup" optional="true">
-            <Name>
-                <en>Age Group</en>
-                <nl>Leeftijdsgroep</nl>
-            </Name>
-            <Description>
-                <en>Your age group, as registered in Microsoft Entra ID</en>
-                <nl>Je leeftijdsgroep, zoals geregistreerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="consentProvidedForMinor" optional="true">
-            <Name>
-                <en>Consent Provided For Minor</en>
-                <nl>Toestemming verleend voor minderjarige</nl>
-            </Name>
-            <Description>
-                <en>Indicates whether consent has been obtained for minors, as registered in Microsoft Entra ID</en>
-                <nl>Geeft aan of er toestemming is verkregen voor minderjarigen, zoals geregistreerd in Microsoft Entra
-                    ID
-                </nl>
-            </Description>
-        </Attribute>
-        <Attribute id="legalAgeGroupClassification" optional="true">
-            <Name>
-                <en>Legal Age Group Classification</en>
-                <nl>Juridische leeftijdsgroepclassificatie</nl>
-            </Name>
-            <Description>
-                <en>Your legal age group classification, as registered in Microsoft Entra ID</en>
-                <nl>Je juridische leeftijdsgroepclassificatie, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
     </Attributes>
