@@ -262,15 +262,5 @@
                 <nl>Je juridische leeftijdsgroepclassificatie, zoals geregistreerd in Microsoft Entra ID</nl>
             </Description>
         </Attribute>
-        <Attribute id="accountEnabled" optional="true">
-            <Name>
-                <en>Account Enabled</en>
-                <nl>Account geactiveerd</nl>
-            </Name>
-            <Description>
-                <en>Indicates whether your account is enabled in Microsoft Entra ID</en>
-                <nl>Geeft aan of je account is geactiveerd in Microsoft Entra ID</nl>
-            </Description>
-        </Attribute>
     </Attributes>
 </IssueSpecification>
