@@ -1,0 +1,204 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Microsoft Entra ID - Reference credential</en>
+        <nl>Microsoft Entra ID - Reference credential</nl>
+    </Name>
+    <ShortName>
+        <en>Microsoft Entra ID - Reference credential</en>
+        <nl>Microsoft Entra ID - Reference credential</nl>
+    </ShortName>
+    <SchemeManager>pbdf-staging</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>microsoftEntraIdReference</CredentialID>
+    <Description>
+        <en>Microsoft Entra ID attributes from your Microsoft Entra ID account</en>
+        <nl>Microsoft Entra ID attributen uit je Microsoft Entra ID account</nl>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://saml-issuer.staging.yivi.app/ms-entra-id-reference/</en>
+        <nl>https://saml-issuer.staging.yivi.app/ms-entra-id-reference/</nl>
+    </IssueURL>
+    <Attributes>
+        <Attribute id="id">
+            <Name>
+                <en>Object-ID</en>
+                <nl>Object-ID</nl>
+            </Name>
+            <Description>
+                <en>Your Microsoft Object ID, as registered in Microsoft Entra ID</en>
+                <nl>Je Microsoft Object ID, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="userPrincipalName" optional="true">
+            <Name>
+                <en>User Principal Name</en>
+                <nl>User Principal Name</nl>
+            </Name>
+            <Description>
+                <en>Your User Principal Name, as registered in Microsoft Entra ID</en>
+                <nl>Je User Principal Name, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="givenName" optional="true">
+            <Name>
+                <en>Given Name</en>
+                <nl>Voornaam</nl>
+            </Name>
+            <Description>
+                <en>Your first name, as registered in Microsoft Entra ID</en>
+                <nl>Je voornaam, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="surname" optional="true">
+            <Name>
+                <en>Surname</en>
+                <nl>Achternaam</nl>
+            </Name>
+            <Description>
+                <en>Your last name, as registered in Microsoft Entra ID</en>
+                <nl>Je achternaam, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="jobTitle" optional="true">
+            <Name>
+                <en>Job Title</en>
+                <nl>Functietitel</nl>
+            </Name>
+            <Description>
+                <en>Your job title in the organization, as registered in Microsoft Entra ID</en>
+                <nl>Je functie binnen de organisatie, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="companyName" optional="true">
+            <Name>
+                <en>Company Name</en>
+                <nl>Bedrijfsnaam</nl>
+            </Name>
+            <Description>
+                <en>Your company name, as registered in Microsoft Entra ID</en>
+                <nl>Je bedrijfsnaam, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="department" optional="true">
+            <Name>
+                <en>Department</en>
+                <nl>Afdeling</nl>
+            </Name>
+            <Description>
+                <en>Your department, as registered in Microsoft Entra ID</en>
+                <nl>Je afdeling, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="employeeId" optional="true">
+            <Name>
+                <en>Employee ID</en>
+                <nl>Personeelsnummer</nl>
+            </Name>
+            <Description>
+                <en>Your employee ID number, as registered in Microsoft Entra ID</en>
+                <nl>Je personeelsnummer, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="employeeType" optional="true">
+            <Name>
+                <en>Employee Type</en>
+                <nl>Werknemerstype</nl>
+            </Name>
+            <Description>
+                <en>Your employee type, as registered in Microsoft Entra ID</en>
+                <nl>Je werknemerstype, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="officeLocation" optional="true">
+            <Name>
+                <en>Office Location</en>
+                <nl>Kantoorlocatie</nl>
+            </Name>
+            <Description>
+                <en>Your physical office location, as registered in Microsoft Entra ID</en>
+                <nl>Je fysieke kantoorlocatie, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="streetAddress" optional="true">
+            <Name>
+                <en>Street Address</en>
+                <nl>Straatnaam en nummer</nl>
+            </Name>
+            <Description>
+                <en>Your street address, as registered in Microsoft Entra ID</en>
+                <nl>Je straatnaam en nummer, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="city" optional="true">
+            <Name>
+                <en>City</en>
+                <nl>Stad</nl>
+            </Name>
+            <Description>
+                <en>Your city, as registered in Microsoft Entra ID</en>
+                <nl>Je stad, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="state" optional="true">
+            <Name>
+                <en>State or Province</en>
+                <nl>Provincie</nl>
+            </Name>
+            <Description>
+                <en>Your state or province, as registered in Microsoft Entra ID</en>
+                <nl>Je provincie, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="postalCode" optional="true">
+            <Name>
+                <en>Postal Code</en>
+                <nl>Postcode</nl>
+            </Name>
+            <Description>
+                <en>Your postal code, as registered in Microsoft Entra ID</en>
+                <nl>Je postcode, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="country" optional="true">
+            <Name>
+                <en>Country</en>
+                <nl>Land</nl>
+            </Name>
+            <Description>
+                <en>Your country, as registered in Microsoft Entra ID</en>
+                <nl>Je land, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="businessPhone" optional="true">
+            <Name>
+                <en>Business Phone Number</en>
+                <nl>Zakelijke telefoonnummer</nl>
+            </Name>
+            <Description>
+                <en>Your business phone number, as registered in Microsoft Entra ID</en>
+                <nl>Je zakelijke telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="mobilePhone" optional="true">
+            <Name>
+                <en>Mobile Phone</en>
+                <nl>Mobiele telefoon</nl>
+            </Name>
+            <Description>
+                <en>Your mobile phone number, as registered in Microsoft Entra ID</en>
+                <nl>Je mobiele telefoonnummer, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="mail" optional="true">
+            <Name>
+                <en>E-mail</en>
+                <nl>E-mail</nl>
+            </Name>
+            <Description>
+                <en>Your e-mail address, as registered in Microsoft Entra ID</en>
+                <nl>Je e-mailadres, zoals geregistreerd in Microsoft Entra ID</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>
