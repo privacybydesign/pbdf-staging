@@ -29,13 +29,13 @@
 		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-		<en>Add your personal data from a Machine Readable Passport to your Yivi app.</en>
-		<nl>.</nl>
-	</FAQIntro>
-	<FAQPurpose>
-		<en>Your personal data in the Yivi app allows you to identify yourself online. Then you can, for example, disclose your name or prove that you are over 18 years old (without revealing your date of birth).</en>
-		<nl>.</nl>
-	</FAQPurpose>
+        <en>Add your personal data from a Machine Readable Passport to your Yivi app.</en>
+        <nl>Voeg je persoonsgegevens uit een machineleesbaar paspoort toe aan je Yivi-app.</nl>
+    </FAQIntro>
+    <FAQPurpose>
+        <en>Your personal data in the Yivi app allows you to identify yourself online. Then you can, for example, disclose your name or prove that you are over 18 years old (without revealing your date of birth).</en>
+        <nl>Met je persoonsgegevens in de Yivi-app kun je jezelf online identificeren. Je kunt dan bijvoorbeeld je naam delen of aantonen dat je ouder bent dan 18 jaar (zonder je geboortedatum prijs te geven).</nl>
+    </FAQPurpose>
 	<FAQContent>
         <en>You will add the following data:\n• photo,\n• document number,\n• document type,\n• first name(s),\n• last name,\n• gender,\n• date of birth,\n• nationality,\n• issuing country,\n• age (whether over 12, 16, 18, 21 or 65),\n• whether active authentication was possible.</en>
         <nl>Je voegt de volgende gegevens toe:\n• foto,\n• documentnummer,\n• documenttype,\n• voornaam/voornamen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• nationaliteit,\n• uitgevend land,\n• leeftijd (of je ouder bent dan 12, 16, 18, 21 of 65),\n• of actieve authenticatie mogelijk was.</nl>
