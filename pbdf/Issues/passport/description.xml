@@ -147,7 +147,7 @@
                 <nl>Land van afgifte</nl>
             </Description>
 		</Attribute>
-        <Attribute id="over12" displayIndex="8" displayHint="yesno">
+        <Attribute id="over12" displayHint="yesno">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
@@ -157,7 +157,7 @@
 				<nl>Of je ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over16" displayIndex="9" displayHint="yesno">
+		<Attribute id="over16" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
@@ -167,7 +167,7 @@
 				<nl>Of je ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over18" displayIndex="10" displayHint="yesno">
+		<Attribute id="over18" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
@@ -177,7 +177,7 @@
 				<nl>Of je ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over21" displayIndex="11" displayHint="yesno">
+		<Attribute id="over21" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
@@ -187,7 +187,7 @@
 				<nl>Of je ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over65" displayIndex="12" displayHint="yesno">
+		<Attribute id="over65" displayHint="yesno">
 			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
