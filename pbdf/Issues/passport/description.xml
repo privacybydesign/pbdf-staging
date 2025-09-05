@@ -118,6 +118,16 @@
                 <nl>Geboortedatum volgens paspoort</nl>
             </Description>
 		</Attribute>
+		<Attribute id="yearOfBirth">
+			<Name>
+                <en>Year of birth</en>
+                <nl>Geboortejaar</nl>
+            </Name>
+			<Description>
+                <en>Year of birth from passport</en>
+                <nl>Geboortejaar volgens paspoort</nl>
+            </Description>
+		</Attribute>
 		<Attribute id="dateOfExpiry">
 			<Name>
                 <en>Date of expiry</en>
