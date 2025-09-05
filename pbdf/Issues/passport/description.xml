@@ -207,14 +207,24 @@
 				<nl>Of je ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="isEuCitizen" displayHint="yesno">
+			<Name>
+                <en>EU Citizen</en>
+                <nl>EU Burger</nl>
+            </Name>
+			<Description>
+                <en>Whether you are an EU citizen</en>
+                <nl>Of je een EU-burger bent</nl>
+            </Description>
+		</Attribute>
         <Attribute id="activeAuthentication" displayHint="yesno">
 			<Name>
-                <en>Activate authenication</en>
+                <en>Activate authentication</en>
                 <nl>Actieve authenticatie</nl>
             </Name>
 			<Description>
-                <en>Wether active authentication could be performed</en>
-                <nl>Of er actieve authenticatie heeft plaatsvonden</nl>
+                <en>Whether active authentication could be performed</en>
+                <nl>Of er actieve authenticatie heeft plaatsgevonden</nl>
             </Description>
 		</Attribute>
         
