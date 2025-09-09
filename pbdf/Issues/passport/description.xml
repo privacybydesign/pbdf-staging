@@ -197,6 +197,16 @@
 				<nl>Of je ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="isEuCitizen" displayHint="yesno">
+			<Name>
+                <en>EU Citizen</en>
+                <nl>EU Inwoner</nl>
+            </Name>
+			<Description>
+                <en>Whether you are an EU citizen</en>
+                <nl>Of je een EU-inwoner bent</nl>
+            </Description>
+		</Attribute>
         <Attribute id="activeAuthentication" displayHint="yesno">
 			<Name>
                 <en>Activate authenication</en>
