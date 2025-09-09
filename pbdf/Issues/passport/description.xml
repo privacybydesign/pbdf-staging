@@ -223,7 +223,7 @@
                 <nl>Actieve authenticatie</nl>
             </Name>
 			<Description>
-                <en>Whether active authentication could be performed</en>
+                <en>Whether active authentication was performed</en>
                 <nl>Of er actieve authenticatie heeft plaatsgevonden</nl>
             </Description>
 		</Attribute>
