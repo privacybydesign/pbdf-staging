@@ -42,7 +42,7 @@
     </FAQContent>
     <FAQHowto>
         <en>1. Scan your driving licence with your phone to read the Machine Readable Zone (MRZ).\n2. Extract the data using the NFC chip in your phone.\n\nWe aim to support this functionality for EU driving licences.</en>
-        <nl>1. Scan je rijbewijs met je telefoon om de machineleesbare zone (MRZ) te lezen.\n2. Haal de gegevens op via de NFC-chip in je telefoon.\n\nWe streven ernaar om deze functionaliteit te ondersteunen voor EU-rijbewijzen.</nl>
+        <nl>1. Scan de voorkant van je rijbewijs met je telefoon\n2. Haal de gegevens op via de NFC-chip in je telefoon.\n\nWe streven ernaar om deze functionaliteit te ondersteunen voor EU-rijbewijzen.</nl>
     </FAQHowto>
 
 
@@ -66,7 +66,7 @@
             </Name>
 			<Description>
                 <en>Licence number</en>
-                <nl>rijsbewijsnummer</nl>
+                <nl>Rijsbewijsnummer</nl>
             </Description>
 		</Attribute>
 		<Attribute id="firstName">
