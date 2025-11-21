@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Driving Licence</en>
-		<nl>Driving Licence</nl>
+		<nl>Rijsbewijs</nl>
 	</Name>
 	<ShortName>
 		<en>Driving Licence</en>
-		<nl>Driving Licence</nl>
+		<nl>Rijsbewijs</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
