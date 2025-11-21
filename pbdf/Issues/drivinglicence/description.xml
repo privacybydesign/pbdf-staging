@@ -29,7 +29,7 @@
 		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-        <en>Add your personal data from a Machine Readable driving licence to your Yivi app.</en>
+        <en>Add your personal data from your driving licence to your Yivi app.</en>
         <nl>Voeg persoonsgegevens van je rijbewijs toe aan je Yivi-app.</nl>
     </FAQIntro>
     <FAQPurpose>
@@ -41,7 +41,7 @@
         <nl>Je voegt de volgende gegevens toe:\n• foto,\n• documentnummer,\n• voornaam/voornamen,\n• achternaam,\n• uitgevende autoriteit,\n• geboortedatum,\n• geboorteplaats,\n• geboortejaar,\n• vervaldatum,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of er actieve authenticatie heeft plaatsgevonden.</nl>
     </FAQContent>
     <FAQHowto>
-        <en>1. Scan your driving licence with your phone to read the Machine Readable Zone (MRZ).\n2. Extract the data using the NFC chip in your phone.\n\nWe aim to support this functionality for EU driving licences.</en>
+        <en>1. Scan the front side of your driving licence with your phone.\n2. Extract the data using the NFC chip in your phone.\n\nWe aim to support this functionality for EU driving licences.</en>
         <nl>1. Scan de voorkant van je rijbewijs met je telefoon\n2. Haal de gegevens op via de NFC-chip in je telefoon.\n\nWe streven ernaar om deze functionaliteit te ondersteunen voor EU-rijbewijzen.</nl>
     </FAQHowto>
 
@@ -53,8 +53,8 @@
                 <nl>Documentnummer</nl>
             </Name>
 			<Description>
-                <en>Licence number</en>
-                <nl>Rijbewijsnummer</nl>
+                <en>Document number</en>
+                <nl>Documentnummer</nl>
             </Description>
 		</Attribute>
 		<Attribute id="firstName">
@@ -100,7 +100,7 @@
         <Attribute id="placeOfBirth">
             <Name>
                 <en>Place of birth</en>
-                <nl>Geboortedatum</nl>
+                <nl>Geboorteplaats</nl>
             </Name>
             <Description>
                 <en>Place of birth from the driving licence</en>
@@ -120,10 +120,11 @@
 		<Attribute id="dateOfExpiry">
 			<Name>
                 <en>Date of expiry</en>
-                <nl>Vervaldatum</nl></Name>
+                <nl>Vervaldatum</nl>
+			</Name>
 			<Description>
                 <en>Expiry date of the driving licence</en>
-                <nl>Vervaldatum van het rijbewijs</nl>
+                <nl>Vervaldatum volgens rijbewijs</nl>
             </Description>
 		</Attribute>
         <Attribute id="over12" displayHint="yesno">
@@ -186,7 +187,7 @@
                 <nl>Of er actieve authenticatie heeft plaatsgevonden</nl>
             </Description>
 		</Attribute>
-		        <Attribute id="photo"
+		<Attribute id="photo"
 			displayHint="portraitPhoto"
 			optional="true">
 			<Name>
