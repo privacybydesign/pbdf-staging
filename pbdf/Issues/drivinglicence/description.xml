@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Driving Licence</en>
-		<nl>Rijsbewijs</nl>
+		<nl>rijbewijs</nl>
 	</Name>
 	<ShortName>
 		<en>Driving Licence</en>
-		<nl>Rijsbewijs</nl>
+		<nl>rijbewijs</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>drivinglicence</CredentialID>
 	<Description>
 		<en>Your personal details derived from your driving licence</en>
-		<nl>Je persoonsgegevens volgens het rijsbewijs</nl>
+		<nl>Je persoonsgegevens volgens je rijbewijs</nl>
 	</Description>
 	<IssueURL>
 		<en>https://passport-issuer.staging.yivi.app/en</en>
@@ -30,7 +30,7 @@
 	</Category>
 	<FAQIntro>
         <en>Add your personal data from a Machine Readable driving licence to your Yivi app.</en>
-        <nl>Voeg je persoonsgegevens uit een machineleesbaar rijsbewijs toe aan je Yivi-app.</nl>
+        <nl>Voeg persoonsgegevens van je rijbewijs toe aan je Yivi-app.</nl>
     </FAQIntro>
     <FAQPurpose>
         <en>Your personal data in the Yivi app allows you to identify yourself online. Then you can, for example, disclose your name or prove that you are over 18 years old (without revealing your date of birth).</en>
@@ -47,18 +47,6 @@
 
 
 	<Attributes>
-        <Attribute id="photo"
-			displayHint="portraitPhoto"
-			optional="true">
-			<Name>
-				<en>Photo</en>
-				<nl>Foto</nl>
-			</Name>
-			<Description>
-				<en>Portrait photo of the person</en>
-				<nl>Portretfoto van de persoon</nl>
-			</Description>
-		</Attribute>
 		<Attribute id="documentNumber">
 			<Name>
                 <en>Document number</en>
@@ -66,7 +54,7 @@
             </Name>
 			<Description>
                 <en>Licence number</en>
-                <nl>Rijsbewijsnummer</nl>
+                <nl>Rijbewijsnummer</nl>
             </Description>
 		</Attribute>
 		<Attribute id="firstName">
@@ -76,7 +64,7 @@
             </Name>
 			<Description>
                 <en>Given name(s) from driving licence</en>
-                <nl>Voornamen volgens rijsbewijs</nl>
+                <nl>Voornamen volgens rijbewijs</nl>
             </Description>
 		</Attribute>
 		<Attribute id="lastName">
@@ -86,7 +74,7 @@
             </Name>
 			<Description>
                 <en>Surname from driving licence</en>
-                <nl>Achternaam volgens rijsbewijs</nl>
+                <nl>Achternaam volgens rijbewijs</nl>
             </Description>
 		</Attribute>
 		<Attribute id="issuingAuthority">
@@ -106,7 +94,7 @@
             </Name>
 			<Description>
                 <en>Birthdate from the driving licence</en>
-                <nl>Geboortedatum volgens rijsbewijs</nl>
+                <nl>Geboortedatum volgens rijbewijs</nl>
             </Description>
 		</Attribute>
         <Attribute id="placeOfBirth">
@@ -116,7 +104,7 @@
             </Name>
             <Description>
                 <en>Place of birth from the driving licence</en>
-                <nl>Geboorteplaats volgens rijsbewijs</nl>
+                <nl>Geboorteplaats volgens rijbewijs</nl>
             </Description>
         </Attribute>
 		<Attribute id="yearOfBirth">
@@ -126,7 +114,7 @@
             </Name>
 			<Description>
                 <en>Year of birth from the driving licence</en>
-                <nl>Geboortejaar volgens rijsbewijs</nl>
+                <nl>Geboortejaar volgens rijbewijs</nl>
             </Description>
 		</Attribute>
 		<Attribute id="dateOfExpiry">
@@ -135,7 +123,7 @@
                 <nl>Vervaldatum</nl></Name>
 			<Description>
                 <en>Expiry date of the driving licence</en>
-                <nl>Vervaldatum van het rijsbewijs</nl>
+                <nl>Vervaldatum van het rijbewijs</nl>
             </Description>
 		</Attribute>
         <Attribute id="over12" displayHint="yesno">
@@ -198,6 +186,17 @@
                 <nl>Of er actieve authenticatie heeft plaatsgevonden</nl>
             </Description>
 		</Attribute>
-        
+		        <Attribute id="photo"
+			displayHint="portraitPhoto"
+			optional="true">
+			<Name>
+				<en>Photo</en>
+				<nl>Foto</nl>
+			</Name>
+			<Description>
+				<en>Portrait photo of the person</en>
+				<nl>Portretfoto van de persoon</nl>
+			</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>
