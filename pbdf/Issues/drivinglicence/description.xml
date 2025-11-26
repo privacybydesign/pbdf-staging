@@ -94,7 +94,7 @@
             </Name>
             <Description>
                 <en>European state issuing this driving licence</en>
-                <nl>Europese staat die dit rijbewijs afgeeft</nl>
+                <nl>Europese staat die dit rijbewijs heeft uitgegeven</nl>
             </Description>
         </Attribute>
 		<Attribute id="dateOfBirth">
