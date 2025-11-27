@@ -87,6 +87,16 @@
                 <nl>Gemeente die verantwoordelijk is voor de afgifte van dit rijbewijs</nl>
             </Description>
 		</Attribute>
+        <Attribute id="issuingMemberState">
+            <Name>
+                <en>Issuing member state</en>
+                <nl>Uitgevende lidstaat</nl>
+            </Name>
+            <Description>
+                <en>European state issuing this driving licence</en>
+                <nl>Europese staat die dit rijbewijs heeft uitgegeven</nl>
+            </Description>
+        </Attribute>
 		<Attribute id="dateOfBirth">
 			<Name>
                 <en>Date of birth</en>
