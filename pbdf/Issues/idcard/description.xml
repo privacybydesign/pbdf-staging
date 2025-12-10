@@ -42,38 +42,11 @@
 	</FAQPurpose>
 	<FAQContent>
 		<en>
-			You will add the following data from your ID-card:
-			• document number,
-			• document type,
-			• first name(s),
-			• last name,
-			• gender,
-			• date of birth,
-			• year of birth,
-			• date of expiry of the ID-card,
-			• nationality,
-			• issuing country,
-			• whether you are over 12, 16, 18, 21 or 65,
-			• whether you are an EU citizen,
-			• whether active authentication was possible.
-			• photo (optional)
+			You will add the following data from your ID-card:\n• document number,\n• document type,\n• first name(s),\n• last name,\n• gender,\n• date of birth,\n• year of birth,\n• date of expiry of the ID-card,\n• nationality,\n• issuing country,\n• whether you are over 12, 16, 18, 21 or 65,\n• whether you are an EU citizen,\n• whether active authentication was possible.\n• photo (optional)\n
 		</en>
 		<nl>
 			Je voegt de volgende gegevens uit je ID-kaart toe:
-			• documentnummer,
-			• documenttype,
-			• voornaam/voornamen,
-			• achternaam,
-			• geslacht,
-			• geboortedatum,
-			• geboortejaar,
-			• vervaldatum van de ID-kaart,
-			• nationaliteit,
-			• uitgevend land,
-			• of je ouder bent dan 12, 16, 18, 21 of 65,
-			• of je EU-burger bent,
-			• of actieve authenticatie mogelijk was.
-			• foto (optioneel)
+			• documentnummer,\n• documenttype,\n• voornaam/voornamen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• geboortejaar,\n• vervaldatum van de ID-kaart,\n• nationaliteit,\n• uitgevend land,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of je EU-burger bent,\n• of actieve authenticatie mogelijk was.\n• foto (optioneel)\n
 		</nl>
 	</FAQContent>
 
