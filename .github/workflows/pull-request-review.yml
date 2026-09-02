@@ -38,7 +38,7 @@ jobs:
           echo "$HOME/.local/bin" >> $GITHUB_PATH
           
       - name: Download irma CLI tool
-        run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/irma-linux-amd64
+        run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/yivi-linux-amd64
 
       - name: Set executable permissions
         run: chmod +x "$HOME/.local/bin/irma"

@@ -27,7 +27,7 @@ jobs:
          
      - name: Download irma CLI tool (latest)
        if: matrix.irmago-version == 'latest'
-       run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/irma-linux-amd64
+       run: wget -O "$HOME/.local/bin/irma" https://github.com/privacybydesign/irmago/releases/latest/download/yivi-linux-amd64
 
      - name: Download irma CLI tool (specific version)
        if: matrix.irmago-version != 'latest'
