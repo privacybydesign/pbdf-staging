@@ -1,0 +1,216 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Diploma</en>
+        <nl>Diploma</nl>
+    </Name>
+    <ShortName>
+        <en>Diploma</en>
+        <nl>Diploma</nl>
+    </ShortName>
+    <SchemeManager>pbdf-staging</SchemeManager>
+    <IssuerID>pbdf</IssuerID>
+    <CredentialID>diploma</CredentialID>
+    <Description>
+        <en>A diploma from the Dutch diploma register, taken from the digitally signed extract of
+            "Mijn diploma's" (DUO), verified and bound to your identity.</en>
+        <nl>Een diploma uit het Nederlandse diplomaregister, overgenomen uit het digitaal
+            ondertekende uittreksel van "Mijn diploma's" (DUO), gecontroleerd en gekoppeld aan je
+            identiteit.</nl>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://diploma.staging.yivi.app/en</en>
+        <nl>https://diploma.staging.yivi.app/nl</nl>
+    </IssueURL>
+
+    <IsInCredentialStore>true</IsInCredentialStore>
+    <Category>
+        <en>Personal</en>
+        <nl>Persoonlijk</nl>
+    </Category>
+    <FAQIntro>
+        <en>Add a diploma from the Dutch diploma register ("Mijn diploma's" of DUO) to your Yivi app.</en>
+        <nl>Voeg een diploma uit het Nederlandse diplomaregister ("Mijn diploma's" van DUO) toe aan je Yivi-app.</nl>
+    </FAQIntro>
+    <FAQPurpose>
+        <en>The diploma in your Yivi app is bound to your identity: before it is issued, your name and
+            date of birth are verified against the holder named on the DUO extract. When you share it
+            with an organisation, such as an employer, an educational institution or a recruitment
+            agency, they can safely assume that the diploma belongs to you and process it
+            automatically in their systems, without checking a PDF or a diploma register by hand.
+            Every time you share it, you decide which data the organisation gets to see. You can, for
+            example, prove only which qualification you hold or its NLQF level, without revealing
+            the institution or the date you graduated.</en>
+        <nl>Het diploma in je Yivi-app is gekoppeld aan je identiteit: voordat het wordt uitgegeven,
+            worden je naam en geboortedatum gecontroleerd tegen de houder op het DUO-uittreksel. Deel
+            je het diploma met een organisatie, zoals een werkgever, een onderwijsinstelling of een
+            uitzendbureau, dan kan die er veilig van uitgaan dat het diploma van jou is en het
+            automatisch in haar systemen verwerken, zonder een PDF of een diplomaregister met de hand
+            te controleren. Bij elke keer delen bepaal je zelf welke gegevens de organisatie te zien
+            krijgt. Je kunt bijvoorbeeld alleen aantonen welke opleiding je hebt afgerond of welk
+            NLQF-niveau die heeft, zonder de instelling of je afstudeerdatum prijs te geven.</nl>
+    </FAQPurpose>
+    <FAQContent>
+        <en>You will add the following data from your diploma extract:\n• kind of document (diploma or certificate),\n• name of the qualification and, for secondary education, the profile,\n• your name and date of birth,\n• the institution, place and date the diploma was awarded,\n• the NLQF and EQF level, when the extract states one,\n• the number and date of the DUO extract,\n• whether the extract included the list of grades (yes/no); the grades themselves are not added,\n• which credential was used to verify your identity (BRP personal data, passport, ID card or driving licence).\n\nEvery diploma becomes a separate card in your Yivi app.</en>
+        <nl>Je voegt de volgende gegevens uit je diploma-uittreksel toe:\n• soort document (diploma of getuigschrift),\n• naam van de opleiding en, bij voortgezet onderwijs, het profiel,\n• je naam en geboortedatum,\n• de instelling, plaats en datum waarop het diploma is behaald,\n• het NLQF- en EQF-niveau, als het uittreksel dat vermeldt,\n• het nummer en de datum van het DUO-uittreksel,\n• of het uittreksel de cijferlijst bevatte (ja/nee); de cijfers zelf worden niet toegevoegd,\n• met welk gegeven je identiteit is geverifieerd (BRP-persoonsgegevens, paspoort, identiteitskaart of rijbewijs).\n\nElk diploma wordt een apart kaartje in je Yivi-app.</nl>
+    </FAQContent>
+    <FAQHowto>
+        <en>You need the digital extract (PDF) of your diploma from DUO. Log in to Mijn DUO (mijndiplomas.nl) with DigiD, open "Mijn studies en diploma's" and download the extract of every diploma you want to add. This is free of charge.\n\n1. Upload one or more extract PDFs. We check DUO's digital signature on every PDF: it must be valid, unaltered and made with a qualified certificate of DUO. Only then do we read the data from it.\n2. Prove your identity in the Yivi app with your BRP personal data, passport, ID card or driving licence.\n3. If your name and date of birth match the holder named on the extracts, you can add every diploma to your Yivi app as a card.\n\nThe uploaded PDFs are only kept for the duration of the session (at most one hour) and are removed as soon as the diplomas have been added to your Yivi app.</en>
+        <nl>Je hebt hiervoor het digitale uittreksel (PDF) van je diploma van DUO nodig. Log in op Mijn DUO (mijndiplomas.nl) met DigiD, open "Mijn studies en diploma's" en download het uittreksel van elk diploma dat je wilt toevoegen. Dit is gratis.\n\n1. Upload een of meer uittreksel-PDF's. We controleren de digitale handtekening van DUO op elke PDF: die moet geldig en ongewijzigd zijn en gezet met een gekwalificeerd certificaat van DUO. Pas daarna lezen we de gegevens uit.\n2. Bewijs je identiteit in de Yivi-app met je BRP-persoonsgegevens, paspoort, identiteitskaart of rijbewijs.\n3. Komen je naam en geboortedatum overeen met de houder op de uittreksels? Dan kun je elk diploma als kaartje toevoegen aan je Yivi-app.\n\nDe geüploade PDF's worden alleen tijdens de sessie bewaard (maximaal een uur) en worden verwijderd zodra de diploma's aan je Yivi-app zijn toegevoegd.</nl>
+    </FAQHowto>
+
+    <Attributes>
+        <Attribute id="documentType">
+            <Name>
+                <en>Document</en>
+                <nl>Document</nl>
+            </Name>
+            <Description>
+                <en>Kind of document in the register: Diploma or Getuigschrift (certificate)</en>
+                <nl>Soort document in het register: Diploma of Getuigschrift</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="qualification">
+            <Name>
+                <en>Qualification</en>
+                <nl>Opleiding</nl>
+            </Name>
+            <Description>
+                <en>Name of the qualification as registered, e.g. "Hoger algemeen voortgezet
+                    onderwijs" or "HBO Bachelor Informatica"</en>
+                <nl>Naam van de opleiding zoals geregistreerd, bijv. "Hoger algemeen voortgezet
+                    onderwijs" of "HBO Bachelor Informatica"</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="profile" optional="true">
+            <Name>
+                <en>Profile</en>
+                <nl>Profiel</nl>
+            </Name>
+            <Description>
+                <en>Profile(s) of a secondary education diploma, e.g. "Natuur en Techniek"; empty
+                    for other qualifications</en>
+                <nl>Profiel(en) van een vo-diploma, bijv. "Natuur en Techniek"; leeg bij andere
+                    opleidingen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="fullName">
+            <Name>
+                <en>Name</en>
+                <nl>Naam</nl>
+            </Name>
+            <Description>
+                <en>Name of the holder as printed on the extract (given names and surname)</en>
+                <nl>Naam van de houder zoals op het uittreksel (voornamen en achternaam)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="dateOfBirth">
+            <Name>
+                <en>Date of birth</en>
+                <nl>Geboortedatum</nl>
+            </Name>
+            <Description>
+                <en>Date of birth of the holder (YYYY-MM-DD)</en>
+                <nl>Geboortedatum van de houder (JJJJ-MM-DD)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="institution">
+            <Name>
+                <en>Institution</en>
+                <nl>Instelling</nl>
+            </Name>
+            <Description>
+                <en>Educational institution that awarded the diploma</en>
+                <nl>Onderwijsinstelling die het diploma heeft uitgegeven</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="placeOfIssue">
+            <Name>
+                <en>Place</en>
+                <nl>Plaats</nl>
+            </Name>
+            <Description>
+                <en>Place where the diploma was awarded</en>
+                <nl>Plaats waar het diploma is uitgegeven</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="dateAwarded">
+            <Name>
+                <en>Date awarded</en>
+                <nl>Datum behaald</nl>
+            </Name>
+            <Description>
+                <en>Date the diploma was awarded (YYYY-MM-DD)</en>
+                <nl>Datum waarop het diploma is behaald (JJJJ-MM-DD)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="nlqfLevel" optional="true">
+            <Name>
+                <en>NLQF level</en>
+                <nl>NLQF-niveau</nl>
+            </Name>
+            <Description>
+                <en>Level in the Dutch qualifications framework, e.g. "4"; empty when the extract
+                    does not print a level</en>
+                <nl>Niveau in het Nederlands kwalificatieraamwerk, bijv. "4"; leeg als het
+                    uittreksel geen niveau vermeldt</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="eqfLevel" optional="true">
+            <Name>
+                <en>EQF level</en>
+                <nl>EQF-niveau</nl>
+            </Name>
+            <Description>
+                <en>Level in the European qualifications framework, e.g. "4"; empty when the extract
+                    does not print a level</en>
+                <nl>Niveau in het Europees kwalificatieraamwerk, bijv. "4"; leeg als het uittreksel
+                    geen niveau vermeldt</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="documentNumber">
+            <Name>
+                <en>Extract number</en>
+                <nl>Nummer uittreksel</nl>
+            </Name>
+            <Description>
+                <en>Number DUO prints on the extract; can be used for the manual check at
+                    duo.nl/diplomacontrole</en>
+                <nl>Nummer dat DUO op het uittreksel afdrukt; te gebruiken voor de handmatige
+                    controle via duo.nl/diplomacontrole</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="downloadDate">
+            <Name>
+                <en>Extract date</en>
+                <nl>Datum uittreksel</nl>
+            </Name>
+            <Description>
+                <en>Day the extract was downloaded from DUO (YYYY-MM-DD)</en>
+                <nl>Dag waarop het uittreksel bij DUO is gedownload (JJJJ-MM-DD)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="gradeList" displayHint="yesno">
+            <Name>
+                <en>List of grades included</en>
+                <nl>Cijferlijst opgenomen</nl>
+            </Name>
+            <Description>
+                <en>Whether the extract included the list of grades (cijferlijst)</en>
+                <nl>Of het uittreksel de cijferlijst bevatte</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="identitySource">
+            <Name>
+                <en>Identity verified with</en>
+                <nl>Identiteit geverifieerd met</nl>
+            </Name>
+            <Description>
+                <en>Credential used to bind the diploma to the holder: brp, passport, id_card or
+                    driving_licence</en>
+                <nl>Gegeven waarmee het diploma aan de houder is gekoppeld: brp, passport, id_card
+                    of driving_licence</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>
