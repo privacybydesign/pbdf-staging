@@ -1,0 +1,82 @@
+<IssueSpecification version="4">
+	<!--
+		Proof of Age attestation, compliant with the EU Age Verification profile
+		(https://ageverification.dev/av-doc-technical-specification/docs/annexes/annex-A/annex-A-av-profile/).
+		The same credential is also issued as ISO mdoc (doctype and namespace "eu.europa.ec.av.1")
+		and as SD-JWT VC; attribute IDs equal the data element identifiers of that profile.
+		age_over_18 is mandatory, the other age_over_NN elements are optional.
+	-->
+	<Name>
+		<en>Age verification</en>
+		<nl>Leeftijdsverificatie</nl>
+	</Name>
+	<ShortName>
+		<en>Age</en>
+		<nl>Leeftijd</nl>
+	</ShortName>
+	<SchemeManager>pbdf-staging</SchemeManager>
+	<IssuerID>pbdf</IssuerID>
+	<CredentialID>ageVerification</CredentialID>
+	<Description>
+		<en>Proof of your age, derived from your passport, ID-card or driving licence, compliant with the EU age verification profile</en>
+		<nl>Bewijs van je leeftijd, afgeleid uit je paspoort, ID-kaart of rijbewijs, volgens het Europese leeftijdsverificatieprofiel</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#014483</BackgroundGradientStart>
+	<BackgroundGradientEnd>#2574A6</BackgroundGradientEnd>
+
+	<Attributes>
+		<Attribute id="age_over_12" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 12</en>
+				<nl>Ouder dan 12</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 12 years old</en>
+				<nl>Of je op dit moment ouder dan 12 jaar bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age_over_16" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 16</en>
+				<nl>Ouder dan 16</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 16 years old</en>
+				<nl>Of je op dit moment ouder dan 16 jaar bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age_over_18" displayHint="yesno">
+			<Name>
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 18 years old</en>
+				<nl>Of je op dit moment ouder dan 18 jaar bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age_over_21" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 21</en>
+				<nl>Ouder dan 21</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 21 years old</en>
+				<nl>Of je op dit moment ouder dan 21 jaar bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age_over_65" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 65</en>
+				<nl>Ouder dan 65</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 65 years old</en>
+				<nl>Of je op dit moment ouder dan 65 jaar bent</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
