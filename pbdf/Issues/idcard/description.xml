@@ -41,9 +41,11 @@
 			geboortedatum prijs te geven).</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data from your ID-card:\n• document number,\n• document type,\n• first name(s),\n• last name,\n• gender,\n• date of birth,\n• year of birth,\n• date of expiry of the ID-card,\n• nationality,\n• issuing country,\n• whether you are over 12, 16, 18, 21 or 65,\n• whether you are an EU citizen,\n• whether active authentication was possible.\n• photo (optional)
+		<en>You will add the following data from your ID-card:\n• document number,\n• document type,\n• first name(s),\n• last name,\n• gender,\n• date of birth,\n• year of birth,\n• date of expiry of the ID-card,\n• nationality,\n• issuing country,\n• whether you are over 12, 16, 18, 21 or 65,\n• whether you are an EU citizen,\n• whether active authentication was possible.\n• issuing authority and date of issue (optional),
+• photo (optional)
 		</en>
-		<nl>Je voegt de volgende gegevens uit je ID-kaart toe:\n• documentnummer,\n• documenttype,\n• voornaam/voornamen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• geboortejaar,\n• vervaldatum van de ID-kaart,\n• nationaliteit,\n• uitgevend land,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of je EU-burger bent,\n• of actieve authenticatie mogelijk was.\n• foto (optioneel)
+		<nl>Je voegt de volgende gegevens uit je ID-kaart toe:\n• documentnummer,\n• documenttype,\n• voornaam/voornamen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• geboortejaar,\n• vervaldatum van de ID-kaart,\n• nationaliteit,\n• uitgevend land,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of je EU-burger bent,\n• of actieve authenticatie mogelijk was.\n• afgevende instantie en datum van afgifte (optioneel),
+• foto (optioneel)
 		</nl>
 	</FAQContent>
 
@@ -239,6 +241,26 @@
 			<Description>
 				<en>Whether active authentication was performed</en>
 				<nl>Of er actieve authenticatie heeft plaatsgevonden</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuingAuthority" optional="true">
+			<Name>
+				<en>Issuing authority</en>
+				<nl>Afgevende instantie</nl>
+			</Name>
+			<Description>
+				<en>Authority that issued the ID-card</en>
+				<nl>Instantie die de ID-kaart heeft afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfIssue" optional="true">
+			<Name>
+				<en>Date of issue</en>
+				<nl>Datum van afgifte</nl>
+			</Name>
+			<Description>
+				<en>Date of issue of the ID-card</en>
+				<nl>Datum van afgifte van de ID-kaart</nl>
 			</Description>
 		</Attribute>
 

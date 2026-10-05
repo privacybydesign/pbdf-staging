@@ -37,8 +37,10 @@
         <nl>Met je persoonsgegevens in de Yivi-app kun je jezelf online identificeren. Je kunt dan bijvoorbeeld je naam delen of aantonen dat je ouder bent dan 18 jaar (zonder je geboortedatum prijs te geven).</nl>
     </FAQPurpose>
 	<FAQContent>
-        <en>You will add the following data:\n• photo,\n• document number,\n• document type,\n• first name(s),\n• last name,\n• gender,\n• date of birth,\n• nationality,\n• issuing country,\n• age (whether over 12, 16, 18, 21 or 65),\n• whether active authentication was possible.</en>
-        <nl>Je voegt de volgende gegevens toe:\n• foto,\n• documentnummer,\n• documenttype,\n• voornaam/voornamen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• nationaliteit,\n• uitgevend land,\n• leeftijd (of je ouder bent dan 12, 16, 18, 21 of 65),\n• of actieve authenticatie mogelijk was.</nl>
+        <en>You will add the following data:\n• photo,\n• document number,\n• document type,\n• first name(s),\n• last name,\n• gender,\n• date of birth,\n• nationality,\n• issuing country,\n• age (whether over 12, 16, 18, 21 or 65),\n• whether active authentication was possible,
+• issuing authority and date of issue (optional).</en>
+        <nl>Je voegt de volgende gegevens toe:\n• foto,\n• documentnummer,\n• documenttype,\n• voornaam/voornamen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• nationaliteit,\n• uitgevend land,\n• leeftijd (of je ouder bent dan 12, 16, 18, 21 of 65),\n• of actieve authenticatie mogelijk was,
+• afgevende instantie en datum van afgifte (optioneel).</nl>
     </FAQContent>
 	<FAQHowto>
         <en>1. Scan your passport with your phone to read the Machine Readable Zone (MRZ).\n2. Extract the data using the NFC chip in your phone.\n\nWe aim to support this functionality in all Anglo-Saxon countries and throughout the EU, using national passports that comply with ICAO standards.</en>
@@ -226,6 +228,26 @@
                 <en>Whether active authentication was performed</en>
                 <nl>Of er actieve authenticatie heeft plaatsgevonden</nl>
             </Description>
+		</Attribute>
+		<Attribute id="issuingAuthority" optional="true">
+			<Name>
+				<en>Issuing authority</en>
+				<nl>Afgevende instantie</nl>
+			</Name>
+			<Description>
+				<en>Authority that issued the passport</en>
+				<nl>Instantie die het paspoort heeft afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfIssue" optional="true">
+			<Name>
+				<en>Date of issue</en>
+				<nl>Datum van afgifte</nl>
+			</Name>
+			<Description>
+				<en>Date of issue of the passport</en>
+				<nl>Datum van afgifte van het paspoort</nl>
+			</Description>
 		</Attribute>
         
 	</Attributes>
