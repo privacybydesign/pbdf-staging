@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>ID-card</en>
-		<nl>ID-kaart</nl>
+		<en>Residence permit</en>
+		<nl>Verblijfsvergunning</nl>
 	</Name>
 	<ShortName>
-		<en>ID-card</en>
-		<nl>ID-kaart</nl>
+		<en>Residence permit</en>
+		<nl>Verblijfsvergunning</nl>
 	</ShortName>
 	<SchemeManager>pbdf-staging</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
-	<CredentialID>idcard</CredentialID>
+	<CredentialID>residencepermit</CredentialID>
 	<Description>
-		<en>Your personal details derived from your ID-card</en>
-		<nl>Je persoonsgegevens volgens de ID-kaart</nl>
+		<en>Your personal details derived from your residence permit</en>
+		<nl>Je persoonsgegevens volgens de verblijfsvergunning</nl>
 	</Description>
 	<IssueURL>
 		<en>https://passport-issuer.staging.yivi.app/en</en>
@@ -29,8 +29,8 @@
 		<nl>Persoonlijk</nl>
 	</Category>
 	<FAQIntro>
-		<en>Add your personal data from a Machine Readable ID-card to your Yivi app.</en>
-		<nl>Voeg je persoonsgegevens uit een machineleesbare ID-kaart toe aan je Yivi-app.</nl>
+		<en>Add your personal data from a machine readable residence permit to your Yivi app.</en>
+		<nl>Voeg je persoonsgegevens uit een machineleesbare verblijfsvergunning toe aan je Yivi-app.</nl>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>Your personal data in the Yivi app allows you to identify yourself online. Then you can,
@@ -41,21 +41,21 @@
 			geboortedatum prijs te geven).</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data from your ID-card:\n• document number,\n• document type,\n• first name(s),\n• last name,\n• gender,\n• date of birth,\n• year of birth,\n• date of expiry of the ID-card,\n• nationality,\n• issuing country,\n• whether you are over 12, 16, 18, 21 or 65,\n• whether you are an EU citizen,\n• whether active authentication was possible.\n• photo (optional)
+		<en>You will add the following data from your residence permit:\n• document number,\n• document type,\n• first name(s),\n• last name,\n• gender,\n• date of birth,\n• year of birth,\n• date of expiry of the residence permit,\n• nationality,\n• issuing country,\n• whether you are over 12, 16, 18, 21 or 65,\n• whether you are an EU citizen,\n• whether active authentication was possible.\n• photo (optional)
 		</en>
-		<nl>Je voegt de volgende gegevens uit je ID-kaart toe:\n• documentnummer,\n• documenttype,\n• voornaam/voornamen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• geboortejaar,\n• vervaldatum van de ID-kaart,\n• nationaliteit,\n• uitgevend land,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of je EU-burger bent,\n• of actieve authenticatie mogelijk was.\n• foto (optioneel)
+		<nl>Je voegt de volgende gegevens uit je verblijfsvergunning toe:\n• documentnummer,\n• documenttype,\n• voornaam/voornamen,\n• achternaam,\n• geslacht,\n• geboortedatum,\n• geboortejaar,\n• vervaldatum van de verblijfsvergunning,\n• nationaliteit,\n• uitgevend land,\n• of je ouder bent dan 12, 16, 18, 21 of 65,\n• of je EU-burger bent,\n• of actieve authenticatie mogelijk was.\n• foto (optioneel)
 		</nl>
 	</FAQContent>
 
 	<FAQHowto>
-		<en>1. Scan your ID-card with your phone to read the Machine Readable Zone (MRZ).\n2.
+		<en>1. Scan your residence permit with your phone to read the Machine Readable Zone (MRZ).\n2.
 			Extract the data using the NFC chip in your phone.\n\nWe aim to support this
-			functionality in all Anglo-Saxon countries and throughout the EU, using national
-			ID-cards that comply with ICAO standards.</en>
-		<nl>1. Scan je ID-kaart met je telefoon om de machine-leesbare zone (MRZ) te lezen.\n2. Haal
+			functionality in all Anglo-Saxon countries and throughout the EU, using residence
+			permits that comply with ICAO standards.</en>
+		<nl>1. Scan je verblijfsvergunning met je telefoon om de machine-leesbare zone (MRZ) te lezen.\n2. Haal
 			de gegevens op via de NFC-chip in je telefoon.\n\nWe streven ernaar om deze
 			functionaliteit te ondersteunen in alle Angelsaksische landen en in de hele EU, met
-			ID-kaarten die voldoen aan de ICAO-standaard.</nl>
+			verblijfsvergunningen die voldoen aan de ICAO-standaard.</nl>
 	</FAQHowto>
 
 	<Attributes>
@@ -77,8 +77,8 @@
 				<nl>Documentnummer</nl>
 			</Name>
 			<Description>
-				<en>ID-card number</en>
-				<nl>ID-kaartnummer</nl>
+				<en>Residence permit number</en>
+				<nl>Verblijfsvergunningnummer</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="documentType">
@@ -87,8 +87,8 @@
 				<nl>Documenttype</nl>
 			</Name>
 			<Description>
-				<en>Type of document (e.g., I for ID-card)</en>
-				<nl>Type document (bijv. I voor ID-kaart)</nl>
+				<en>Type of document (e.g., IR for residence permit)</en>
+				<nl>Type document (bijv. IR voor verblijfsvergunning)</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="firstName">
@@ -97,8 +97,8 @@
 				<nl>Voornaam</nl>
 			</Name>
 			<Description>
-				<en>Given name(s) from ID-card</en>
-				<nl>Voornamen volgens ID-kaart</nl>
+				<en>Given name(s) from residence permit</en>
+				<nl>Voornamen volgens verblijfsvergunning</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="lastName">
@@ -107,8 +107,8 @@
 				<nl>Achternaam</nl>
 			</Name>
 			<Description>
-				<en>Surname from ID-card</en>
-				<nl>Achternaam volgens ID-kaart</nl>
+				<en>Surname from residence permit</en>
+				<nl>Achternaam volgens verblijfsvergunning</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="nationality">
@@ -117,8 +117,8 @@
 				<nl>Nationaliteit</nl>
 			</Name>
 			<Description>
-				<en>Nationality from ID-card</en>
-				<nl>Nationaliteit volgens ID-kaart</nl>
+				<en>Nationality from residence permit</en>
+				<nl>Nationaliteit volgens verblijfsvergunning</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateOfBirth">
@@ -127,8 +127,8 @@
 				<nl>Geboortedatum</nl>
 			</Name>
 			<Description>
-				<en>Birthdate from ID-card</en>
-				<nl>Geboortedatum volgens ID-kaart</nl>
+				<en>Birthdate from residence permit</en>
+				<nl>Geboortedatum volgens verblijfsvergunning</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="yearOfBirth">
@@ -137,8 +137,8 @@
 				<nl>Geboortejaar</nl>
 			</Name>
 			<Description>
-				<en>Year of birth from ID-card</en>
-				<nl>Geboortejaar volgens ID-kaart</nl>
+				<en>Year of birth from residence permit</en>
+				<nl>Geboortejaar volgens verblijfsvergunning</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="dateOfExpiry">
@@ -147,8 +147,8 @@
 				<nl>Vervaldatum</nl>
 			</Name>
 			<Description>
-				<en>Expiry date of the ID-card</en>
-				<nl>Vervaldatum van de ID-kaart</nl>
+				<en>Expiry date of the residence permit</en>
+				<nl>Vervaldatum van de verblijfsvergunning</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="gender">
@@ -157,8 +157,8 @@
 				<nl>Geslacht</nl>
 			</Name>
 			<Description>
-				<en>Gender as recorded in ID-card</en>
-				<nl>Geslacht zoals in ID-kaart</nl>
+				<en>Gender as recorded in residence permit</en>
+				<nl>Geslacht zoals in verblijfsvergunning</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="country">
