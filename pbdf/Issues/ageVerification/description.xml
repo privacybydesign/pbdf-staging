@@ -38,6 +38,36 @@
 				<nl>Of je op dit moment ouder dan 12 jaar bent</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="age_over_13" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 13</en>
+				<nl>Ouder dan 13</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 13 years old</en>
+				<nl>Of je op dit moment ouder dan 13 jaar bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age_over_14" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 14</en>
+				<nl>Ouder dan 14</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 14 years old</en>
+				<nl>Of je op dit moment ouder dan 14 jaar bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age_over_15" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 15</en>
+				<nl>Ouder dan 15</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 15 years old</en>
+				<nl>Of je op dit moment ouder dan 15 jaar bent</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="age_over_16" displayHint="yesno" optional="true">
 			<Name>
 				<en>Over 16</en>
@@ -46,6 +76,16 @@
 			<Description>
 				<en>Whether you are currently over 16 years old</en>
 				<nl>Of je op dit moment ouder dan 16 jaar bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age_over_17" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 17</en>
+				<nl>Ouder dan 17</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 17 years old</en>
+				<nl>Of je op dit moment ouder dan 17 jaar bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="age_over_18" displayHint="yesno">
@@ -66,6 +106,16 @@
 			<Description>
 				<en>Whether you are currently over 21 years old</en>
 				<nl>Of je op dit moment ouder dan 21 jaar bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age_over_24" displayHint="yesno" optional="true">
+			<Name>
+				<en>Over 24</en>
+				<nl>Ouder dan 24</nl>
+			</Name>
+			<Description>
+				<en>Whether you are currently over 24 years old</en>
+				<nl>Of je op dit moment ouder dan 24 jaar bent</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="age_over_65" displayHint="yesno" optional="true">
