@@ -14,6 +14,12 @@
 		<en>A bank account you have access to, verified through PSD2</en>
 		<nl>Een bankrekening waartoe je toegang hebt, geverifieerd via PSD2</nl>
 	</Description>
+	<IssueURL>
+		<en>https://psd2-issuer.staging.yivi.app/en</en>
+		<nl>https://psd2-issuer.staging.yivi.app/nl</nl>
+	</IssueURL>
+
+	<IsInCredentialStore>true</IsInCredentialStore>
 
 	<ForegroundColor>#ffffff</ForegroundColor>
 	<BackgroundGradientStart>#0B4F3C</BackgroundGradientStart>
